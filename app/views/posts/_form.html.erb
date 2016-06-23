@@ -12,15 +12,17 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :CodeName %><br>
+    <%= f.label :Title %><br>
     <%= f.text_field :CodeName %>
   </div>
-  <div class="field">
-    <%= f.label :CEO %><br>
+  <div class="field"><br>
+    <h4><%= f.label :CEO %></h4><br>
+
     <%= f.check_box :CEO %>
+     <h5>Check Box For Yes</h5>
   </div>
   <div class="field">
-    <%= f.label :Story %><br>
+    <%= f.label :Full_Story %><br>
     <%= f.text_area :Story %>
   </div>
   <div class="actions">
